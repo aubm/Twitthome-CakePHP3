@@ -1,0 +1,22 @@
+{
+  "name": "cakephp-test",
+  "version": "0.0.0",
+  "authors": [
+    "kendo5731 <contact@aubm.net>"
+  ],
+  "description": "CakePHP test",
+  "main": "index.php",
+  "license": "Free",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": ">= 3.3.2",
+    "jscroll": "https://github.com/pklauzinski/jscroll.git"
+  }
+}

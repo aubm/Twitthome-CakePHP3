@@ -1,0 +1,9 @@
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
+
+/.idea
+/node_modules
+/webroot/img/avatars/*
+!/webroot/img/avatars/.gitkeep

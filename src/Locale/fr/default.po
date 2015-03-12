@@ -1,0 +1,80 @@
+msgid "Account parameters have been saved"
+msgstr "Les paramètres du compte ont été enregistrés"
+
+msgid "The tweet could not be added"
+msgstr "Le tweet n'a pas pu être ajouté"
+
+msgid "Your account has been created."
+msgstr "Vous compte a été créé"
+
+msgid "Your account could not be created."
+msgstr "Votre compte n'a pas pu être créé"
+
+msgid "User does not exist"
+msgstr "L'utilisateur n'existe pas"
+
+msgid "Bad credentials."
+msgstr "Identifiant ou mot de passe incorrect"
+
+msgid "The file must be an valid image"
+msgstr "Le fichier doit être une image"
+
+msgid "The file must be less than 2MB"
+msgstr "Le fichier doit peser moins de 2Mo"
+
+msgid "Username must not be empty"
+msgstr "Vous devez renseigner un nom d'utilisateur"
+
+msgid "Password must not be empty"
+msgstr "Vous devez renseigner un mot de passe"
+
+msgid "E-mail must not be empty"
+msgstr "Vous devez renseigner l'e-mail"
+
+msgid "E-mail must be valid"
+msgstr "L'e-mail doit être valide"
+
+msgid "First name must not be empty"
+msgstr "Vous devez renseigner le prénom"
+
+msgid "Last name must not be empty"
+msgstr "Vous devez renseigner le nom de famille"
+
+msgid "Edit your profile"
+msgstr "Modifier votre profil"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "Trends"
+msgstr "Tendances"
+
+msgid "Tweets about"
+msgstr "Tweets à propos de"
+
+msgid "Sign in"
+msgstr "Se connecter"
+
+msgid "Hi"
+msgstr "Salut"
+
+msgid "Sign out"
+msgstr "Se déconnecter"
+
+msgid "Tweeter"
+msgstr "Tweeter"
+
+msgid "Sign up"
+msgstr "S'enregistrer"
+
+msgid "Already have an account ?"
+msgstr "Vous posséder déjà un compte ?"
+
+msgid "Go !"
+msgstr "Go !"
+
+msgid "No account ?"
+msgstr "Pas de compte ?"
+
+msgid "What's up ?"
+msgstr "Quoi de neuf ?"
