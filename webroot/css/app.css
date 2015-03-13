@@ -6530,7 +6530,7 @@ button.close {
   }
 }
 body {
-  background: #f7adb5 url(../img/bg.jpg) no-repeat top center;
+  background: #f7adb5 url(../img/bg.jpg) repeat-x top center;
 }
 h1 {
   margin-top: 10px;
