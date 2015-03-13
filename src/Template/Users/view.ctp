@@ -1,4 +1,4 @@
-<h1>Profile of <?= h($user->username) ?></h1>
+<h1><?= __('Profile of') ?> <?= h($user->username) ?></h1>
 
 <?php $this->start('col-left'); ?>
 <div class="content-box">

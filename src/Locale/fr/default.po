@@ -78,3 +78,18 @@ msgstr "Pas de compte ?"
 
 msgid "What's up ?"
 msgstr "Quoi de neuf ?"
+
+msgid "Profile of"
+msgstr "Profil de"
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "First Name"
+msgstr "Prénom"
+
+msgid "Last Name"
+msgstr "Nom de famille"
