@@ -16,8 +16,6 @@ use Cake\I18n\I18n;
  */
 class AppController extends Controller
 {
-    public $helpers = ['Avatar', 'Tweet', 'TweetInfiniteScroll'];
-
     /**
      * Initialization hook method.
      *
