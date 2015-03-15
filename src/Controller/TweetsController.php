@@ -74,12 +74,15 @@ class TweetsController extends AppController
         $query->limit($limit);
         $tweets = $query->toArray();
 
-        $this->set('tweets', $tweets);
-        $this->set('offset', $offset + $limit);
-        $this->set('limit', $limit);
-        $this->set('what', $what);
-        $this->set('username', @$options['username']);
-        $this->set('tag_name', @$options['tag_name']);
+        $this->set([
+            'tweets' => $tweets,
+            'offset' => $offset + $limit,
+            'limit' => $limit,
+            'what' => $what,
+            'username' => @$options['username'],
+            'tag_name' => @$options['tag_name']
+        ]);
+
         $this->render(null, 'ajax');
     }
 }

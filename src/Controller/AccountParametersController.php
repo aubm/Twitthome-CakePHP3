@@ -25,7 +25,9 @@ class AccountParametersController extends AppController
         ]);
 
         if ($this->request->is(['post', 'put'])) {
-            $this->AccountParameters->patchEntity($account_parameters, $this->request->data());
+            $this->AccountParameters->patchEntity($account_parameters, $this->request->data(), [
+                'fieldList' => ['biography', 'locality', 'website']
+            ]);
             if (!$account_parameters->errors()) {
 
                 $avatar_file_data = $this->request->data()['avatar_image'];
