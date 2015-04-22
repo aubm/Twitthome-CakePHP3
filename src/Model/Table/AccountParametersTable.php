@@ -20,7 +20,7 @@ class AccountParametersTable extends Table
         return $validator
             ->allowEmpty('avatar_image')
             ->add('avatar_image', 'mimeType', [
-                'rlle' => ['mimeType', ['image/jpeg', 'image/png']],
+                'rule' => ['mimeType', ['image/jpeg', 'image/png']],
                 'message' => __('The file must be an valid image')
             ])
             ->add('avatar_image', 'fileSize', [
