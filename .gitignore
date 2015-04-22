@@ -3,6 +3,7 @@
 /tmp/*
 /logs/*
 
+*.swp
 /.idea
 /node_modules
 /webroot/img/avatars/*

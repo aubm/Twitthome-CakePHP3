@@ -11,6 +11,7 @@ class AccountParametersTable extends Table
     {
         $this->entityClass('\App\Model\Entity\AccountParameters');
 
+        $this->belongsTo('Colors');
         $this->belongsTo('Users');
     }
 
@@ -19,7 +20,7 @@ class AccountParametersTable extends Table
         return $validator
             ->allowEmpty('avatar_image')
             ->add('avatar_image', 'mimeType', [
-                'rule' => ['mimeType', ['image/jpeg', 'image/png']],
+                'rlle' => ['mimeType', ['image/jpeg', 'image/png']],
                 'message' => __('The file must be an valid image')
             ])
             ->add('avatar_image', 'fileSize', [

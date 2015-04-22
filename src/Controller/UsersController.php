@@ -47,9 +47,10 @@ class UsersController extends AppController
 
     public function view($username)
     {
-        $user = $this->Users->find('all')->contain(['AccountParameters'])->where([
+        $user = $this->Users->find('all')->contain(['AccountParameters', 'AccountParameters.Colors'])->where([
             'username' => $username
         ])->first();
+        // $user->account_parameter->color
 
         if (null === $user) {
             throw new NotFoundException(__('User does not exist'));
